@@ -10,9 +10,12 @@
 </p>
 
 ## 📖 Contents
+- [Red Teams vs. Blue Teams vs. Purple Teams](#red-teams-vs-blue-teams-vs-purple-teams)
 - [My Other Awesome Lists](#my-other-awesome-lists)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
+
+### Red Teams vs. [Blue Teams](https://github.com/cybersecurity-dev/awesome-blue-teaming) vs. [Purple Teams](https://github.com/cybersecurity-dev/awesome-purple-teaming)
 
 ##
 ### My Other Awesome Lists
