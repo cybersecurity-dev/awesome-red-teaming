@@ -21,7 +21,14 @@
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 
-### Red Teams vs. [Blue Teams](https://github.com/cybersecurity-dev/awesome-blue-teaming) vs. [Purple Teams](https://github.com/cybersecurity-dev/awesome-purple-teaming)
+## Red Teams vs. [Blue Teams](https://github.com/cybersecurity-dev/awesome-blue-teaming) vs. [Purple Teams](https://github.com/cybersecurity-dev/awesome-purple-teaming)
+
+
+## Pentest Tools
+
+### AI-powered Pentest Assistant Tool
+ - [Decepticon](https://github.com/PurpleAILAB/Decepticon) - Autonomous Hacking Agent for Red Team.
+ - [DeepTeam](https://github.com/confident-ai/deepteam) - [DeepTeam](https://trydeepteam.com/) is a framework to red team LLMs and AI agents.
 
 ##
 ### My Other Awesome Lists
