@@ -26,11 +26,33 @@
 
 ## Pentest Tools
 
-### AI-powered Pentest Assistant Tool
+### Network Discovery
+
+### Web and API testing
+
+### Exploitation validation
+
+### Identity and Active Directory
+
+### Credential auditing
+
+### Cloud and containers
+
+### Command and control
+
+### Adversary emulation
+
+### Detection validation
+
+### Reporting and collaboration
+
+### `AI-powered Pentest Assistant` Tools
  - [Decepticon](https://github.com/PurpleAILAB/Decepticon) - Autonomous Hacking Agent for Red Team.
  - [DeepTeam](https://github.com/confident-ai/deepteam) - [DeepTeam](https://trydeepteam.com/) is a framework to red team LLMs and AI agents.
 
+
 ##
+
 ### My Other Awesome Lists
 You can access the my other awesome lists [here](https://cyberthreatdefence.com/my_awesome_lists)
 
