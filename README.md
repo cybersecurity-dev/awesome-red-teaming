@@ -23,10 +23,34 @@
 
 ## Red Teams vs. [Blue Teams](https://github.com/cybersecurity-dev/awesome-blue-teaming) vs. [Purple Teams](https://github.com/cybersecurity-dev/awesome-purple-teaming)
 
+## Red Team: Summary by Phase
+
+| Phase | Objective | Recommended tools |
+|---|---|---|
+| **1. Planning and OSINT** | Identify publicly available information and understand the authorized target's external exposure. | Maltego, SpiderFoot, theHarvester, Amass, Recon-ng |
+| **2. Network Discovery** | Discover hosts, open ports, running services, operating systems, and trust boundaries. | Nmap, Masscan, RustScan, Netdiscover |
+| **3. Vulnerability Assessment** | Identify known vulnerabilities, outdated software, and security misconfigurations. | Greenbone/OpenVAS, Nessus, Nuclei, Nikto |
+| **4. Web and API Testing** | Assess web applications and APIs for input-validation, authentication, authorization, and session-management weaknesses. | Burp Suite, OWASP ZAP, ffuf, Gobuster, httpx, Postman |
+| **5. Exploitation Validation** | Safely verify whether an identified vulnerability can be exploited within the agreed scope. | Metasploit Framework, Core Impact, Immunity CANVAS |
+| **6. Identity and Active Directory** | Analyze identity relationships, permissions, delegation, certificate services, and potential attack paths. | BloodHound, SharpHound, Impacket, NetExec, PingCastle |
+| **7. Credential Auditing** | Evaluate password strength, credential exposure, and authentication controls. | Hashcat, John the Ripper, Hydra, CeWL |
+| **8. Wireless Testing** | Assess authorized Wi-Fi and radio environments for insecure configurations and weak controls. | Aircrack-ng, Kismet, Bettercap, Wifite |
+| **9. Cloud and Container Testing** | Review cloud permissions, configuration exposure, container images, and orchestration security. | ScoutSuite, Prowler, Pacu, ROADtools, Trivy, kube-bench |
+| **10. Command and Control** | Coordinate authorized agents and activity during controlled adversary simulations. | Cobalt Strike, Sliver, Mythic, Havoc |
+| **11. Adversary Emulation** | Execute repeatable scenarios that simulate attacker behavior and test defensive controls. | Apache Caldera, Atomic Red Team, Infection Monkey |
+| **12. Phishing Simulation** | Evaluate organizational awareness, email protections, and incident-reporting procedures. | GoPhish, Microsoft Attack Simulation Training |
+| **13. Detection Validation** | Confirm that security controls detect, record, alert on, and respond to expected behaviors. | Atomic Red Team, Apache Caldera, Stratus Red Team |
+| **14. Reporting and Collaboration** | Record scope, evidence, findings, risk ratings, remediation guidance, and retest results. | Dradis, Faraday, PlexTrac, Serpico, Ghostwriter |
+
+
 
 ## Pentest Tools
 
+### Planning and OSINT
+
 ### Network Discovery
+
+### Vulnerability Assessment
 
 ### Web and API testing
 
@@ -35,6 +59,8 @@
 ### Identity and Active Directory
 
 ### Credential auditing
+
+### Wireless Testing
 
 ### Cloud and containers
 
