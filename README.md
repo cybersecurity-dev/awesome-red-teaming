@@ -1,5 +1,37 @@
 <div align="center">
 
+```mermaid
+flowchart TD
+
+    A[Security Assessment Program]
+
+    A --> B[Red Team]
+    A --> C[Blue Team]
+    A --> D[Purple Team]
+
+    B --> B1[Reconnaissance]
+    B --> B2[Attack Simulation]
+    B --> B3[Adversary Emulation]
+
+    C --> C1[Monitoring]
+    C --> C2[Threat Detection]
+    C --> C3[Incident Response]
+
+    D --> D1[Collaboration]
+    D --> D2[Detection Engineering]
+    D --> D3[Security Validation]
+
+    B3 --> D1
+    C3 --> D1
+
+    D3 --> E[Improved Security Posture]
+
+    style B fill:#990000,stroke:#660000,color:#ffffff
+    style C fill:#0b5394,stroke:#073763,color:#ffffff
+    style D fill:#674ea7,stroke:#351c75,color:#ffffff
+    style E fill:#f1c232,stroke:#bf9000,color:#ffffff
+```
+
 # **`Awesome`** [Red](https://wikipedia.org/wiki/Red_team) [Teaming](https://www.ibm.com/think/topics/red-teaming) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
@@ -9,11 +41,32 @@
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
     &nbsp;
-    <a href="https://www.youtube.com/@CyberThreatDefence"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
+    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
     &nbsp;
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
+
+```mermaid
+flowchart LR
+
+    A[Red Team]
+    B[Blue Team]
+    C[Purple Team]
+    D[Detection]
+    E[Response]
+
+    A --> C
+    B --> C
+    C --> D
+    D --> E
+
+    style A fill:#990000,stroke:#660000,color:#ffffff
+    style B fill:#0b5394,stroke:#073763,color:#ffffff
+    style C fill:#674ea7,stroke:#351c75,color:#ffffff
+    style D fill:#f1c232,stroke:#bf9000,color:#ffffff
+    style E fill:#6aa84f,stroke:#38761d,color:#ffffff
+```
 
 ## 📖 Contents
 - [Red Teams vs. Blue Teams vs. Purple Teams](#red-teams-vs-blue-teams-vs-purple-teams)
@@ -22,6 +75,29 @@
 - [Contributors](#contributors)
 
 ## Red Teams vs. [Blue Teams](https://github.com/cybersecurity-dev/awesome-blue-teaming) vs. [Purple Teams](https://github.com/cybersecurity-dev/awesome-purple-teaming)
+
+```mermaid
+flowchart LR
+
+    subgraph RedTeam[Red Team]
+        A[Reconnaissance]
+        B[Initial Access]
+        C[Lateral Movement]
+        D[Objectives]
+    end
+
+    subgraph BlueTeam[Blue Team]
+        E[Monitoring]
+        F[Detection]
+        G[Investigation]
+        H[Response]
+    end
+
+    A --> E
+    B --> F
+    C --> G
+    D --> H
+```
 
 ## Red Team: Summary by Phase
 
