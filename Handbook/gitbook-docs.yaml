@@ -1,4 +1,5 @@
-version: 1
+site:
+  title: Red Teaming Handbook
 
 spaces:
   - title: Red Teaming Handbook
