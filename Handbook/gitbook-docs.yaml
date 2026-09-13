@@ -1,10 +1,10 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: Red Teaming Handbook
   structure:
-    - path: README.md
-
-spaces:
-  - title: Handbook
-    path: /
-    content:
-      directory: .
+    - type: space
+      key: handbook
+      title: Handbook
+      path: /
+      content:
+        directory: .
