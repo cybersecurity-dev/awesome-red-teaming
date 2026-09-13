@@ -2,13 +2,7 @@ site:
   title: Red Teaming Handbook
 
 spaces:
-  - title: Red Teaming Handbook
-    path: .
+  - title: Handbook
+    path: /
     content:
       directory: .
-
-    sections:
-      - title: Reconnaissance
-        path: reconnaissance
-        content:
-          directory: .
