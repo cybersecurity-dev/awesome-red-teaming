@@ -1,0 +1,13 @@
+version: 1
+
+spaces:
+  - title: Red Teaming Handbook
+    path: .
+    content:
+      directory: .
+
+    sections:
+      - title: Reconnaissance
+        path: reconnaissance
+        content:
+          directory: .
