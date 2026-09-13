@@ -1,12 +1,10 @@
 site:
   title: Red Teaming Handbook
   structure:
-    readme: README.md
+    - path: README.md
 
 spaces:
   - title: Handbook
     path: /
     content:
       directory: .
-    structure:
-      readme: README.md
