@@ -6,5 +6,6 @@ site:
       key: handbook
       title: Handbook
       path: /
+      default: true
       content:
         directory: .
