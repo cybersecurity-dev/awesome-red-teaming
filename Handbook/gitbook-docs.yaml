@@ -1,8 +1,7 @@
 site:
   title: Red Teaming Handbook
   structure:
-    - title: Home
-      path: README.md
+    - path: README.md
 
 spaces:
   - title: Handbook
