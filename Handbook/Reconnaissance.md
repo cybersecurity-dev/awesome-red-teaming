@@ -1,5 +1,40 @@
 # Reconnaissance
 
+```mermaid
+flowchart LR
+
+    A[Target Organization]
+
+    A --> B[Gather Victim Identity Information]
+    A --> C[Gather Victim Network Information]
+    A --> D[Gather Victim Infrastructure Information]
+
+    B --> E[Employee Profiling]
+    B --> F[Email Enumeration]
+
+    C --> G[Domains]
+    C --> H[Subdomains]
+    C --> I[IP Ranges]
+
+    D --> J[Cloud Assets]
+    D --> K[Public Services]
+    D --> L[Certificates]
+
+    E --> M[Attack Surface Map]
+    F --> M
+    G --> M
+    H --> M
+    I --> M
+    J --> M
+    K --> M
+    L --> M
+
+    M --> N[Initial Access Planning]
+
+    style A fill:#333333,stroke:#000000,color:#ffffff
+    style N fill:#990000,stroke:#660000,color:#ffffff
+```
+
 ## [NMAP](https://www.kali.org/tools/nmap/)
 
 ```bash
@@ -75,4 +110,7 @@ Method: `Python pty module`
 ```bash
 burpsuite &
 ```
+
+## TOOLSET
+* [GTFOBins](https://gtfobins.org/) - GTFOBins is a curated list of Unix-like executables that can be used to bypass local security restrictions in misconfigured systems.
 
