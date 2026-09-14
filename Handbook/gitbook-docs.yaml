@@ -1,11 +1,11 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
-  title: Red Teaming Handbook
+  title: Red Teaming's Handbook
   structure:
     - type: space
       key: handbook
       title: Handbook
-      path: /
+      path: undefined
       default: true
       content:
-        directory: .
+        directory: ./
