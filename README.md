@@ -120,17 +120,18 @@ flowchart LR
 
 
 
-## Pentest Tools
+## Red Team Tools
 
 ### Planning and OSINT
 
 ### Network Discovery
 
 ### Vulnerability Assessment
-
+- [GTFOBins](https://gtfobins.org/) - GTFOBins is a curated, collaborative list of Unix-like executables that can be abused to bypass local security restrictions on misconfigured systems
 ### Web and API testing
 
 ### Exploitation validation
+- [Reverse Shell Generator](https://www.revshells.com/) - Online Reverse Shell generator with Local Storage functionality, URI & Base64 Encoding, MSFVenom Generator, and Raw Mode.
 
 ### Identity and Active Directory
 
