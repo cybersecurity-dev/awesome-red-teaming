@@ -1,4 +1,7 @@
+<div align="center">
+    
 # Reconnaissance
+</div>
 
 ```mermaid
 flowchart LR
@@ -100,7 +103,7 @@ msf6> search nibble
 ```
 
 ## [REVERSE SHELL](https://www.imperva.com/learn/application-security/reverse-shell/)
-
+> [!TIP]
 > For detailed **`Shell and Payload Types`** information, please refer to the following [link](./Shell%20and%20Payload%20Types.md).
 
 ### Bash-Based Reverse Shells
