@@ -124,6 +124,8 @@ flowchart LR
 
 ### Planning and OSINT
 
+- [cl0q](https://cl0q.com) - Open search engine for domain research — 38.5M domains scanned, 24.8M pages indexed, free API tier (30 req/min, 1,000/day), no tracking.
+
 ### Network Discovery
 
 ### Vulnerability Assessment
